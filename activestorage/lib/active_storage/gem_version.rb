@@ -7,10 +7,10 @@ module ActiveStorage
   end
 
   module VERSION
-    MAJOR = 6
-    MINOR = 1
-    TINY  = 3
-    PRE   = nil
+    MAJOR = 7
+    MINOR = 0
+    TINY  = 0
+    PRE   = "alpha"
 
     STRING = [MAJOR, MINOR, TINY, PRE].compact.join(".")
   end

@@ -151,8 +151,8 @@ class ActiveStorage::Blob < ActiveStorage::Record
   end
 
   # Returns a signed ID for this blob that's suitable for reference on the client-side without fear of tampering.
-  def signed_id
-    super(purpose: :blob_id)
+  def signed_id(purpose: :blob_id)
+    super
   end
 
   # Returns the key pointing to the file on the service that's associated with this blob. The key is the
